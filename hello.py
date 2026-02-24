@@ -24,6 +24,7 @@ def main():
         n_estimators=100,
         random_state=42
     )
+    print("Take input and output to build a model")
 
     model.fit(X_train, y_train)
 
